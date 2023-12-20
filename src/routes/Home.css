@@ -1,0 +1,120 @@
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* height: 600px; */
+    /* background: gray; */
+    background: #fff;
+    padding-top: 100px;
+  }
+  
+  .headline{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+  }
+  
+  .headline h2{
+    font-weight: 900;
+    font-size: 80px;
+    color: #2689ff;
+  
+    padding: 0;
+    margin: 0;
+  }
+  
+  .headline h1{
+    font-weight: 900;
+    font-size: 20px;
+    color: #2689ff;
+    letter-spacing: 15px;
+    padding: 0;
+    margin-left: 10px;
+  }
+  
+  .headline p{
+    color: gray;
+    text-align: left;
+  }
+  
+  .img-headline{
+    margin-right: 0;
+    flex: 40%;
+    /* border: 1px solid green; */
+    text-align: center;
+  
+  
+  }
+  
+  .contact-btn{
+    display: inline-block;
+    background: #2689ff;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .contact-btn:hover{
+    background: #7cb1ff;
+  }
+  
+  section2{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    /* height: 400px; */
+    /* width: 80%; */
+    text-align: center;
+  }
+  
+  section2 h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color:#2689ff
+  }
+  
+  .servicos{
+    display: inline-block;
+    margin-top: 5%;
+  }
+  
+  .card{
+    display: inline-block;
+    width: 26%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid#2689ff;
+    border-radius: 5px;
+  }
+  
+  .card:hover{
+    background: #2689ff;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  .card:hover img{
+    display: none;
+  }
+  
+  .card:hover .card-text{
+    display: none;
+  }
+  
+  .card:hover .ocult-text{
+    display:block
+  }
+  
+  .ocult-text{
+    display: none;
+  }
+  

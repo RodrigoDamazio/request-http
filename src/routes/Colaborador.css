@@ -1,0 +1,160 @@
+.colab-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7cb1ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 400px; /* Altura máxima antes de aparecer a barra de rolagem */
+    overflow-y: auto ;
+  }
+
+  /* Reset de margens e preenchimento para o body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.colab-list__button {
+    background-color:#0062cf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .colab-list__button:hover {
+    background-color:#2689ff;
+  }
+
+  .colab-list__ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .colab-list__item {
+    padding: 15px 0;
+  }
+  
+  .colab-list__item-name {
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Roboto';
+    padding-bottom: 15px;
+    /* border: 1px solid black; */
+    margin: 10px;
+  }
+
+  .botao_alterar{
+    background-color:  #0062cf;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+  
+  .botao_remover{
+    background-color:  #0062cf;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  
+  }
+  section{
+    display: flex;
+    margin-top: 80px;
+    border: 1px solid black;
+    /* margin-left: 0 auto;
+    margin-right: 0 auto; */
+    padding: 5%;
+    background:#2689ff ;
+    /* height: 400px; */
+    /* width: 80%; */
+    text-align: center;
+  }
+ 
+  .button {
+    background-color:  #0062cf;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .button:hover{
+    background-color:#2689ff;
+  }
+
+  .titulo{
+    font-size: 50px;
+    margin-bottom: 10%;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #053974;
+  }
+
+  .form {
+    background-color: #7cb1ff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    width: 250px;
+    margin: 15px;
+    margin-left: 10%;
+    display: block;
+  
+  }
+
+  .colab-list__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Estilo para os rótulos e campos de entrada */
+  label {
+    display: block;
+    /* margin-top: 5px; */
+    color: #2689ff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 2px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  .botao_alterar:hover{
+    background-color:#2689ff;
+  }
+  
+  .botao_remover:hover{
+    background-color:#2689ff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Estiliza o botão na barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color:#053974; /* Cor da barra de rolagem */
+    border-radius: 6px;
+  }
+  
+  /* Estiliza a trilha (fundo) da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color:#2689ff; /* Cor de fundo da barra de rolagem */
+  }
